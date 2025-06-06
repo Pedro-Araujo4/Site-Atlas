@@ -1,2 +1,2 @@
-Site-Atlas
-# A Website about a ficctional company of spaceships
+# Site-Atlas
+A Website about a ficctional company of spaceships
