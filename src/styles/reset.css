@@ -1,0 +1,10 @@
+@font-face{
+    font-family: 'X-Space';
+    src: url(../assets/fontes/XspaceRegular.ttf);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'X-Space', serif;
+}

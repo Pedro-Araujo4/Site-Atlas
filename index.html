@@ -1,18 +1,80 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atlas</title>
     
+    <!-- Styles -->
     <link rel="stylesheet" href="./src/styles/reset.css">
     <link rel="stylesheet" href="./src/styles/main.css">
+
+    <link rel="icon" href="./src/assets/images/Símbolo da Tripulação (Preto) (1).png">
+
 </head>
+
 <body>
 
+    <audio  autoplay loop>
+        <source src="./src/assets/audios/Sinfonia Jornada Espacial - Trilha sonora para Aventuras Espaciais.mp3" 
+        type="audio/mp3"  alt="Background space music">
+    </audio>
 
+
+    <header class="header-content">
+
+        <img width="140px" height="150px" id="atlas-img" 
+        src="./src/assets/images/Símbolo da Tripulação (Preto) (1).png" alt="Atlas Logo">
+
+        <nav class="center-column">
+          <ul>
+            <li><a class="site-columns" href="">Início</a></li>
+            <li><a class="site-columns" href="#">Naves</a></li>
+            <li><a class="site-columns" href="#">Evento</a></li>
+          </ul>
+        </nav>
+
+        <div class="right-column">
+            <time id="date-time"></time>
+        </div>
+
+    </header>
+
+    <main class="main-content">
+
+        <section class="section-content">
+            <img width="500px" height="500px"
+            src="./src/assets/images/Símbolo da Tripulação (Branco) (1).png" alt="Logo da Atlas">
+            <p class="section-text" >Fundada em 2020 pelo visionário engenheiro aeroespacial Dr. XXXXX, a Atlas nasceu de um sonho: tornar a exploração espacial interplanetária acessível à humanidade. O que começou como um pequeno grupo de cientistas idealistas em uma garagem em São José dos Campos, Brasil, transformou-se em uma das principais empresas de exploração espacial do mundo.</p>
+            <p class="section-text">Em 2022, a Atlas fez história ao lançar com sucesso sua primeira missão tripulada à órbita marciana, estabelecendo as bases para o que seria a primeira colônia humana permanente fora da Terra. Hoje, com bases em 12 países e parcerias com 47 agências espaciais, continuamos a liderar a fronteira final.</p><br>
+            <q>O infinito nos aguarda</q>
+        </section>
+
+         <section id="mission">
+            <h2>Nossa Missão Espacial</h2>
+            <p>Na Atlas, acreditamos que o futuro da humanidade está entre as estrelas. Nossos objetivos são claros e ambiciosos:</p>
+            
+            <div class="mission-grid">
+                <div class="mission-card">
+                    <h3>Mineração Asteroidal</h3>
+                    <p>Desenvolver tecnologia para extração sustentável de recursos minerais de asteroides próximos à Terra.</p>
+                </div>
+                <div class="mission-card">
+                    <h3>Propulsão Quântica</h3>
+                    <p>Pioneirar sistemas de propulsão que permitam viagens interestelares dentro de uma geração.</p>
+                </div>
+                <div class="mission-card">
+                    <h3>Preservação Terrestre</h3>
+                    <p>Utilizar tecnologias espaciais para monitoramento e proteção do ecossistema terrestre.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer></footer>
 
 
     <script defer src="./src/scripts/main.js"></script>
 </body>
+
 </html>
