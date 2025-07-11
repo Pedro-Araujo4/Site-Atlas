@@ -15,22 +15,21 @@
 
 <body>
 
-    <audio  autoplay loop>
-        <source src="./src/assets/audios/Sinfonia Jornada Espacial - Trilha sonora para Aventuras Espaciais.mp3" 
-        type="audio/mp3"  alt="Background space music">
+    <audio src="./src/assets/audios/Sinfonia Jornada Espacial - Trilha sonora para Aventuras Espaciais.mp3"
+    id="audio" autoplay loop>
     </audio>
 
 
     <header class="header-content">
 
-        <img width="140px" height="150px" id="atlas-img" 
+        <img id="logo-login" width="140px" height="150px"  
         src="./src/assets/images/Símbolo da Tripulação (Preto) (1).png" alt="Atlas Logo">
 
         <nav class="center-column">
           <ul>
-            <li><a class="site-columns" href="">Início</a></li>
-            <li><a class="site-columns" href="#">Naves</a></li>
-            <li><a class="site-columns" href="#">Evento</a></li>
+            <li><a id="inicio-nav" class="site-columns">Início</a></li>
+            <li><a class="site-columns">Naves</a></li>
+            <li><a class="site-columns">Evento</a></li>
           </ul>
         </nav>
 
@@ -43,8 +42,8 @@
     <main class="main-content">
 
         <section class="section-content">
-            <img width="500px" height="500px"
-            src="./src/assets/images/Símbolo da Tripulação (Branco) (1).png" alt="Logo da Atlas">
+            <img width="500px" height="300px"
+            src="./src/assets/images/Atlas-logo-Azul.png" alt="Atlas Logo">
             <p class="section-text" >Fundada em 2020 pelo visionário engenheiro aeroespacial Dr. XXXXX, a Atlas nasceu de um sonho: tornar a exploração espacial interplanetária acessível à humanidade. O que começou como um pequeno grupo de cientistas idealistas em uma garagem em São José dos Campos, Brasil, transformou-se em uma das principais empresas de exploração espacial do mundo.</p>
             <p class="section-text">Em 2022, a Atlas fez história ao lançar com sucesso sua primeira missão tripulada à órbita marciana, estabelecendo as bases para o que seria a primeira colônia humana permanente fora da Terra. Hoje, com bases em 12 países e parcerias com 47 agências espaciais, continuamos a liderar a fronteira final.</p><br>
             <q>O infinito nos aguarda</q>
@@ -52,26 +51,40 @@
 
          <section id="mission">
             <h2>Nossa Missão Espacial</h2>
-            <p>Na Atlas, acreditamos que o futuro da humanidade está entre as estrelas. Nossos objetivos são claros e ambiciosos:</p>
+            <p class="mission-p">Na Atlas, acreditamos que o futuro da humanidade está entre as estrelas. Nossos objetivos são claros e ambiciosos:</p>
             
             <div class="mission-grid">
                 <div class="mission-card">
                     <h3>Mineração Asteroidal</h3>
-                    <p>Desenvolver tecnologia para extração sustentável de recursos minerais de asteroides próximos à Terra.</p>
+                    <p class="mission-p">Desenvolver tecnologia para extração sustentável de recursos minerais de asteroides próximos à Terra.</p>
                 </div>
                 <div class="mission-card">
                     <h3>Propulsão Quântica</h3>
-                    <p>Pioneirar sistemas de propulsão que permitam viagens interestelares dentro de uma geração.</p>
+                    <p class="mission-p">Pioneirar sistemas de propulsão que permitam viagens interestelares dentro de uma geração.</p>
                 </div>
                 <div class="mission-card">
                     <h3>Preservação Terrestre</h3>
-                    <p>Utilizar tecnologias espaciais para monitoramento e proteção do ecossistema terrestre.</p>
+                    <p class="mission-p">Utilizar tecnologias espaciais para monitoramento e proteção do ecossistema terrestre.</p>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer></footer>
+    <footer class="footer-container">
+
+        <div class="left-container">
+            <img width="100px" height="100px"
+            src="./src/assets/images/Símbolo da Tripulação (Branco) (1).png" alt="Atlas Logo">
+            <h5>@2020</h5><h3>ATLAS</h3>
+        </div>
+        <div class="right-container">
+            <h2>São José dos Campos</h2>
+            <p>419 Santa Mota</p>
+            <p>+55 (34) 4130-2110</p>
+            <a href="mailto:atlasresistance@gmail.com">atlasresistance@gmail.com</a>
+        </div>
+
+    </footer>
 
 
     <script defer src="./src/scripts/main.js"></script>
